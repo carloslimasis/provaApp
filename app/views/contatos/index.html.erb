@@ -1,0 +1,7 @@
+<h1>Contatos</h1>
+
+<% @contacts.each do |l| %>
+  <li><%=  l.Name %><br/></li>
+<% end %>
+
+<%= link_to "Novo contato", controller: "contatos", action: "new" %>

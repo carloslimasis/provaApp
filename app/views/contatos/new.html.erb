@@ -1,0 +1,37 @@
+<h1>Novo Contato</h1>
+
+<%= form_for @contact , url: {action: "create"} do |f| %>
+
+  <div class="field">
+    <%= f.label :FirstName %><br />
+    <%= f.text_field :FirstName %>
+  </div>
+  <div class="field">
+    <%= f.label :LastName %><br />
+    <%= f.text_field :LastName %>
+  </div>
+  <div class="field">
+    <%= f.label :Email %><br />
+    <%= f.text_field :Email %>
+  </div>
+
+  <div class="field">
+      <%= f.label :Title %><br />
+      <%= f.text_field :Title %>
+  </div>
+
+  <div class="field">
+      <%= f.label :Phone %><br />
+      <%= f.text_field :Phone %>
+  </div>
+
+  <div>
+    <%= f.label :Account %><br />
+    <%= f.collection_select :AccountId, Account.all, :Id, :Name, :selected => @contact['AccountId']  %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>
