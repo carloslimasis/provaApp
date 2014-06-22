@@ -10,7 +10,7 @@ ProvaApp is an application created to allow contact registration integrated with
 
   - First name -> First name of the new contact
   - Last name -> Last name of the new contact
-  - Email -> Email new contact
+  - Email -> Email of the new contact
   - Title -> Professional title of the new contact
   - Phone -> Phone number of the new contact
   - Account -> Account to which the contact is associated
