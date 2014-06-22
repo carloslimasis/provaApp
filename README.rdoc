@@ -2,10 +2,10 @@
 
 ProvaApp is an application created to allow the recording integrated with Salesforce contacts.
 
-1. Features:
+1 - Features:
 
-  a). Register of contacts from Salesforce
+  a) - Register of contacts from Salesforce
 
-  b). Association of accounts to Salesforce contacts via registered records of contacts
+  b) - Association of accounts to Salesforce contacts via registered records of contacts
 
 - URL -> http://polar-ridge-4213.herokuapp.com
