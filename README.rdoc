@@ -1,9 +1,21 @@
 == README
 
-ProvaApp is an application created to allow the recording integrated with Salesforce contacts.
+ProvaApp is an application created to allow contact registration integrated with Salesforce.
 
 1 - Features:
 
   a) - Register of contacts from Salesforce
 
-- URL -> http://polar-ridge-4213.herokuapp.com
+  In the registration of contact is necessary to inform the following fields:
+
+  - First name -> First name of the new contact
+  - Last name -> Last name of the new contact
+  - Email -> Email new contact
+  - Title -> Professional title of the new contact
+  - Phone -> Phone number of the new contact
+  - Account -> Account to which the contact is associated
+
+
+2 - URL:
+
+http://polar-ridge-4213.herokuapp.com
